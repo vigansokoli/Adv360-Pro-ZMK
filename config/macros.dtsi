@@ -1,3 +1,9 @@
+macro_tile_hold: macro_tile_hold{
+compatible = "zmk,behavior-macro";
+label = "macro_tile_hold";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LEFT_GUI>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
